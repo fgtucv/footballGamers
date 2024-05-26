@@ -1,0 +1,63 @@
+.fotboler_title {
+    text-align: center;
+}
+
+.fotboler_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 20px;
+}
+
+.fotboler_item{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    /* position: relative; */
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.fotboler_img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+#is-hiden{
+    opacity: 0;
+    display: none;
+}
+
+.bacdrop{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal{
+    background-color: white;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    overflow: hidden;
+    max-width: 500px;
+    max-height: 400px;
+    padding: 20px;
+}
+
+.fottboler_modal-img{
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    object-fit: cover
+}
